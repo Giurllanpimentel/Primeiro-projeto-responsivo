@@ -1,0 +1,159 @@
+*{
+font-family: 'Montserrat', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.imagem{
+width: 568px;
+height: 500px;
+margin-left: 125px;
+display: inline-block
+}
+
+header {
+  margin: 44px 0 144px 76px;
+}
+
+.link-header {
+  font-weight: 600;
+  font-size: 24px;
+  color: #989D9C;
+  line-height: normal;
+  cursor: pointer;
+  margin-left: 23px;
+}
+
+.button-header{
+  background: #665ae1;
+  border-radius: 20.5px;
+  cursor: pointer;
+  width: 130px;
+  height: 41px;
+  border: none;
+  font-size: 24px;
+  line-height: normal;
+  color: #FFF;
+  margin: 22px 6px 21px;  
+  font-weight: 600;
+}
+
+section {
+  display: inline-block;
+  margin-left: 86px;
+}
+
+h1 {
+color: #515151;
+font-family: Montserrat;
+font-size: 100px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+h2 {
+color: #515151;
+font-family: Montserrat;
+font-size: 58px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+p {
+color: #848484;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 515px;
+margin-top: 32px;
+margin-bottom: 65px;
+}
+
+.button-main{
+border-radius: 30px;
+background: #ADFF00;
+width: 239px;
+height: 64px;
+border: none;
+cursor: pointer;
+color: #000;
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+@media screen and (max-width:800px){
+  a{
+    display: none;
+  }
+
+  .button-header{
+    display: none;
+  }
+
+  .button-main{
+    margin: 0 auto;
+    display: block;
+  }
+
+  body{
+    width: 100vw;
+    height: 100vh;
+  }
+    
+    
+  
+.imagem{
+  margin: auto;
+  width: 500px;
+}
+
+h1{
+  color: #515151;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  }
+
+p{
+  display: none;
+}
+
+h2{
+  font-size: 30px;
+  font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 17px;
+}
+
+section{
+  text-align: center;
+  
+}
+
+h1{
+  font-size: 60px;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
+
+main{
+  text-align: center;
+}
+
+}
+
+
+
